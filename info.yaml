@@ -1,7 +1,7 @@
 --- 
 # TinyTapeout project information
 project: 13arn 4 bit counter on steamdeck
-  wokwi_id:341541108650607187        # If using wokwi, set this to your project's ID
+  wokwi_id: 341541108650607187        # If using wokwi, set this to your project's ID
 #  source_files:        # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. Source files must be in ./src
 #    - counter.v
 #    - decoder.v
@@ -15,7 +15,7 @@ project: 13arn 4 bit counter on steamdeck
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
   author:        "13arn" # Your name
-  discord:        13arn#9121"   # Your discord handle
+  discord:        "13arn#9121"   # Your discord handle
   title:        "4 bit counter on steamdeck"   # Project title
   description:  "copy of my tt01 submission, enable first input and press button to use the counter" # Short description of what your project does
   how_it_works: "fsm that uses 1 input to progress abd count from 0 to 3. Other inputs have various logic to play with" # Longer description of how the project works. This was all done on a steamdeck
